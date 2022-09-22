@@ -74,6 +74,7 @@ dist
 .DS_*
 **/*.backup.*
 **/*.back.*
+.DS_STORE
 
 node_modules
 
