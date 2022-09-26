@@ -1,8 +1,13 @@
+import { CommonProviderOptions } from "next-auth/providers";
 import { getProviders, getSession, signIn } from "next-auth/react";
 import Image from "next/image";
 import Logo from "../../assets/images/google-logo.png";
 
-export default function SignIn({ providers }: any) {
+export default function SignIn({
+  providers,
+}: {
+  providers: { google: CommonProviderOptions };
+}) {
   return (
     <div className="grid h-[80vh] place-items-center ">
       <div className="relative w-auto my-6 mx-auto min-w-[80%] md:min-w-[60%] xl:min-w-[25%] flex flex-col justify-center items-center">
