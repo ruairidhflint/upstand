@@ -11,7 +11,7 @@ export default function SignIn({
   return (
     <div className="grid h-[80vh] place-items-center ">
       <div className="relative w-auto my-6 mx-auto min-w-[80%] md:min-w-[60%] xl:min-w-[25%] flex flex-col justify-center items-center">
-        <h1 className="text-4xl text-slate-700">upstart</h1>
+        <h1 className="text-4xl text-slate-700">upstand</h1>
         <p className="text-center w-4/5 mt-2 leading-snug">
           Daily check-in and task management for remote and asynchronous teams
         </p>
